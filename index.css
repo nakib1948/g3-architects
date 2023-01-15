@@ -1,0 +1,326 @@
+
+/* -------------
+First section start 
+---------------*/
+.first-section{
+    background: rgba(255, 144, 14, 0.1);
+    margin-bottom: 8vh;
+}
+/* first section navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar h1{
+    font-weight: 700;
+    font-size: 45px;  
+}
+.navbar p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 3vw;
+}
+.navbar-second-div{
+    display: flex;
+}
+
+/* fist section second part(description part) */
+.description-field{
+   text-align: center;
+   width: 40%;
+   margin-left: 30%;
+   margin-top: 16.32vh;
+}
+.description-field h1{
+    font-weight: 700;
+    font-size: 64px;
+
+}
+.description-field p{
+font-weight: 400;
+font-size: 16px;
+}
+.baton-first-type{
+    width: 13vw;
+    height: 10vh;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #FF900E;
+    color: white;
+    border-radius: 5px;
+}
+
+/* first section image */
+.first-section img{
+    margin-top: 5vh;
+   width: 76%;
+   margin-left: 12%;
+   padding-bottom: 3vh;
+}
+
+/* -------------
+   first section end
+   ----------- */
+
+
+   /* second section start */
+
+
+
+.secondSection-secondpart{
+    width: 34vw;
+}
+.same-style{
+    font-weight: 500;
+    font-size: 45px;
+}
+.secondSection-secondpart p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.parent-div
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 8vh;
+}
+.first-child-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 2vw;
+    grid-row-gap: 2vh;
+}
+
+/* second section end */
+
+/* third section start */
+
+.third-section-parent-div{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5vh;
+}
+.third-section-parent-div img{
+    width: 100%;
+    height: 100%;
+}
+
+.third-section-first-child{
+    width: 50%;
+
+}
+
+.third-section-second-child{
+    margin-top: 4vh;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.large-baton{
+    font-weight: 700;
+    font-size: 65px;
+    border-radius: 5px;
+    background: #FF900E;
+    margin-left: 55vw;
+}
+div .large-baton{
+    position:absolute;
+    transform: translate(-55%,-55%);
+    -ms-transform: translat(-70%,-70%);
+}
+/* third section end */
+/* forth section start */
+.forth-section{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40vh;
+}
+.first-div{
+    width: 40%;
+    margin-bottom: 10vh;
+}
+.second-div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+}
+.some-facts{
+    font-weight: 700;
+    font-size: 45px;
+}
+.common-div{
+    padding: 10px;
+    width: 10vw;
+    border: 3px solid #FF900E;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.common-div:hover{
+    transform: scale(1.5);
+    transition: transform .3s;
+    background-color:rgba(255, 144, 14, 0.1); ;
+}
+
+.third-div{
+    width: 40%;
+    text-align: center;
+
+    padding-left: 26vw;
+    margin-bottom: 10vh;
+}
+
+.forth-div{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 10vh;
+}
+
+/* extra section */
+.extra-section{
+    text-align: center;
+    margin-bottom: 5vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color:rgba(239, 27, 20, 0.581) ;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.extra-section button{
+    margin-top: 1vh;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(65, 65, 245);
+   
+    
+}
+
+
+.footer{
+   text-align: center;
+   
+}
+.ending-div{
+    background: rgba(255, 144, 14, 0.1);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1.5vh 0 1.5vh 0;
+    border-radius: 5px;
+}
+
+
+
+/* for small device */
+@media only screen and (max-width:576px) {
+
+    /* -------------
+First section start 
+---------------*/
+
+.navbar{
+    flex-direction: column;
+}
+.description-field{
+    text-align: center;
+    width: 40%;
+    margin-top: 10vh;
+ }
+ .description-field h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+.description-field p{
+    font-weight: 300;
+    font-size: 10px;
+    }
+    .baton-first-type{
+        width: 20vw;
+       height:  4vh;
+       font-weight: 300;
+       font-size: 10px;
+    }
+    /* -------------
+   first section end
+   ----------- */
+
+
+     /* second section start */
+
+     .parent-div
+     {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         align-items: center;
+     }
+     .first-child-div{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+     
+         grid-row-gap: 2vh;
+     }
+     .secondSection-secondpart{
+        width: 80%;
+    }
+
+
+     /* third section start */
+
+
+
+     .third-section-parent-div{
+       flex-direction: column;
+    }
+    .third-section-first-child{
+        width: 100%;
+        margin-bottom: 4vh;
+    }
+    .large-baton{
+        font-weight: 500;
+        font-size: 40px;
+        border-radius: 5px;
+        background: #FF900E;
+        margin-left: 55vw;
+    }
+
+
+    /* forth-section */
+    .first-div{
+        width: 80%;
+        
+    }
+    .second-div{
+       flex-direction: column;
+    }
+    .third-div{
+      
+       width: 80%;
+       padding-left: 10vw;
+    }
+    .forth-div{
+       flex-direction: column;
+       margin-bottom: 5vh;
+       padding-left: 20vw;
+    }
+    .common-div{
+      width: 80%;
+      margin-bottom: 5vh;
+    }
+    .second-common-div{
+        margin-bottom: 5vh;
+    }
+    
+
+}
+
+
+
